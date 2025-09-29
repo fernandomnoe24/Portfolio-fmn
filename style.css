@@ -248,11 +248,12 @@ li {
   background-color: #031c27;
   text-align: center;
   padding-bottom: 4em;
+  text-align: left;
 }
 #habilidades h2 {
   padding: 2em 0;
   padding-bottom: 4em;
-  
+  text-align: center;
 }
 #habilidades > div > div > h3 {
   color: #0073e6;
@@ -452,6 +453,7 @@ height: auto;
 .col h3 {
   text-align: center;
 }
+
 #certificaciones {
   display: flex;
   flex-direction: column;
@@ -496,7 +498,20 @@ height: auto;
     .hamburger {
         display: block;
     }
-  
+  .contenedor-hab {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#habilidades h2 {
+    padding: 2em 0;
+    padding-bottom: 2em;
+}
+.col2-hab {
+  margin-top: 1em;
+}
   #certificaciones {
   height: auto;
   flex-wrap: nowrap;
